@@ -1,0 +1,29 @@
+# diseasesynergy
+Multi-state, dead-recovery model for 18 years of data from Turretfield rabbit population, South Australia 
+Data collected by Biosecurity, South Australia, Department of Primary Industries and Regions
+
+Code accompanies paper in review.
+
+Barnett,LK, Prowse,TAA, Peacock, DE, Mutze, GJ, Sinclair,RG, Kovaliski,J, Cooke, BD, Bradshaw CJA. Previous exposure to myxomatosis reduces survival of European rabbits during outbreaks of rabbit haemorrhagic disease for biological control
+
+
+Code by Louise Barnett
+November 2017
+
+Before running the script you will need to install program MARK from
+http://www.phidot.org/software/mark/downloads/
+
+Mac and Linux users might find this post helpful:
+http://www.phidot.org/forum/viewtopic.php?f=21&t=3233&p=10967&hilit=install+RMark#p10967
+
+This script is for assessing how previous disease exposure/immunity state and recurring outbreaks of myxomatosis and rabbit haemorrhagic disease affect rabbit survival (S) and immunity state transitions (Psi)
+
+Immunity state / previous exposure categories:
+N - Immunity to neither virus
+M - Immunity to myxoma virus only
+R - Immunity to rabbit haemorrhagic disease virus (RHDV) only
+B - Immunity to both viruses
+
+Age groups:
+Kittens <= 600 g (may have residual maternal immunity to RHD)
+Adults > 600 g (unlikely to have residual maternal immunity)
