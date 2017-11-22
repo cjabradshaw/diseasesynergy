@@ -28,6 +28,6 @@ Age groups:
 Kittens <= 600 g (may have residual maternal immunity to RHD)
 Adults > 600 g (unlikely to have residual maternal immunity)
 
-Associated data files are included:
+Associated data files include:
 - TripCovariates.csv
 - CaptureHist.csv
