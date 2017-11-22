@@ -4,7 +4,7 @@ Data collected by Biosecurity, South Australia, Department of Primary Industries
 
 Code accompanies paper in review.
 
-Barnett,LK, Prowse,TAA, Peacock, DE, Mutze, GJ, Sinclair,RG, Kovaliski,J, Cooke, BD, Bradshaw CJA. Previous exposure to myxomatosis reduces survival of European rabbits during outbreaks of rabbit haemorrhagic disease for biological control
+Barnett, LK, TAA Prowse, DE Peacock, GJ Mutze, RG Sinclair, J Kovaliski, BD Cooke, CJA Bradshaw. Previous exposure to myxomatosis reduces survival of European rabbits during outbreaks of rabbit haemorrhagic disease for biological control. Journal of Applied Ecology
 
 
 Code by Louise Barnett
@@ -27,3 +27,7 @@ B - Immunity to both viruses
 Age groups:
 Kittens <= 600 g (may have residual maternal immunity to RHD)
 Adults > 600 g (unlikely to have residual maternal immunity)
+
+Associated data files are included:
+- TripCovariates.csv
+- CaptureHist.csv
