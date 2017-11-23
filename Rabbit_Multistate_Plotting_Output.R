@@ -7,10 +7,9 @@
 ## Barnett,LK, Prowse,TAA, Peacock, DE, Mutze, GJ, Sinclair, RG, Kovaliski,J,
 ## Cooke, BD, Bradshaw CJA. Previous exposure to myxomatosis reduces survival
 ## of European rabbits during outbreaks of rabbit haemorrhagic disease for
-## biological control
+## biological control. Journal of Applied Ecology
 ##
-##
-## Louise Barnett
+## Louise K. Barnett
 ## November 2017
 ##
 ## Plotting estimates for survival (S) and transition probability (Psi)
