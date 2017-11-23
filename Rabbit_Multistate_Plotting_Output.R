@@ -1,6 +1,7 @@
-#####################################################################################
-## Multi-state, dead-recovery model for 18 years of data from Turretfield rabbit pop. 
+##############################################################################################################
+## Multi-state, dead-recovery model for 18 years of data from Turretfield rabbit population in South Australia 
 ## Data collected by Biosecurity, South Australia, Department of Primary Industries and Regions
+##############################################################################################################
 ##
 ## Code accompanies paper in review.
 ##
