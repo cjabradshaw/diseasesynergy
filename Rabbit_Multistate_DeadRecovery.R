@@ -1,6 +1,7 @@
-#####################################################################################
-## Multi-state, dead-recovery model for 18 years of data from Turretfield rabbit pop. 
+#############################################################################################################
+## Multi-state, dead-recovery model for 18 years of data from Turretfield rabbit population, South Australia 
 ## Data collected by Biosecurity, South Australia, Department of Primary Industries and Regions
+#############################################################################################################
 ##
 ## Code accompanies paper in review.
 ##
@@ -76,7 +77,7 @@ TripNo=107
 ################## Make design data for the model ####################
 ######################################################################
 
-# Process data (ignore warning)
+# Process data # ignore warning
 mstrata.processed=process.data(CH, model="MSLiveDead",
                                strata.labels = c("N","M","R","B"),# labels for strata
                                groups=c("InitAge"),# set initial ages
@@ -91,6 +92,8 @@ ddl= make.design.data(mstrata.processed,
                                                subtract.stratum=c("N","M","R","B")),
                                       S=list(age.bins=c(0,1,(TripNo+2)))),
                       right=FALSE)
+
+# Ignore warning
 
 # Check age is working
 head(ddl$S$age)
@@ -302,6 +305,8 @@ run.mstrata=function(){
    # Formula for Psi
    Psi.stratum=list(formula=~-1+
                       Kitten+
+                      Kitten:MV+
+                      Kitten:RHDV+
                       stratum:tostratum:Adult +
                       stratum:tostratum:Adult:MV +
                       stratum:tostratum:Adult:RHDV,
@@ -331,6 +336,8 @@ Best<- results[[2]]
 
 #### Save output ####
 save(file="RabbitDiseaseModels.RData", results, ddl, mstrata.processed)
+
+## Now run Script 2: 'Rabbit_Multistate_Plotting_Output.R' using saved output
 
 ############################################################################
 
