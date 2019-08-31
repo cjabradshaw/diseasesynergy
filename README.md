@@ -4,7 +4,7 @@ Data collected by Biosecurity, South Australia, Department of Primary Industries
 
 Code accompanies paper in review.
 
-Barnett, LK, TAA Prowse, DE Peacock, GJ Mutze, RG Sinclair, J Kovaliski, BD Cooke, CJA Bradshaw. Previous exposure to myxomatosis reduces survival of European rabbits during outbreaks of rabbit haemorrhagic disease for biological control. Journal of Applied Ecology
+Barnett, LK, TAA Prowse, DE Peacock, GJ Mutze, RG Sinclair, J Kovaliski, BD Cooke, CJA Bradshaw. 2018. Previous exposure to myxomatosis reduces survival of European rabbits during outbreaks of rabbit haemorrhagic disease for biological control. Journal of Applied Ecology 55: 2954-2962 http://doi.org/10.1111/1365-2664.13187
 
 Code by Louise K. Barnett
 November 2017
